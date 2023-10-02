@@ -4,7 +4,11 @@ import {Canvas} from "@react-three/fiber";
 function App() {
   return (
     <div className="App">
-      <Canvas/>
+      <Canvas>
+          <mesh>
+              <boxGeometry/>
+          </mesh>
+      </Canvas>
     </div>
   );
 }
