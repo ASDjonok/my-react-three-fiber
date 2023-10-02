@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import {Canvas} from "@react-three/fiber";
 
 function App() {
   return (
     <div className="App">
-      Hello world!
+      <Canvas/>
     </div>
   );
 }
